@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ProductsView from '../views/ProductsView.vue'
 import ServicesView from '../views/ServicesView.vue'
-import SettingsView from '../views/SettingsView.vue'
+import Settings from '../views/Settings.vue'
 
 const routes = [
   {
@@ -23,8 +23,8 @@ const routes = [
   },
   {
     path: '/settings',
-    name: 'settings',
-    component: SettingsView
+    name: 'Settings',
+    component: Settings
   }
 ]
 

@@ -66,7 +66,7 @@
     </v-app-bar>
 
     <v-main class="bg-grey-lighten-4">
-      <v-container fluid class="pa-8">
+      <v-container fluid class="pa-8 main-container">
         <router-view/>
       </v-container>
     </v-main>
@@ -118,5 +118,9 @@ export default {
 
 .v-list-item:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.main-container {
+  padding-top: 80px !important;  /* Header 높이(70px)보다 약간 더 여유있게 설정 */
 }
 </style>
