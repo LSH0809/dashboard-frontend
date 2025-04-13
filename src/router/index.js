@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ProductsView from '../views/ProductsView.vue'
 import ServicesView from '../views/ServicesView.vue'
 import Settings from '../views/Settings.vue'
+import ProfileSettings from '../views/ProfileSettings.vue'
 
 const routes = [
   {
@@ -25,6 +26,11 @@ const routes = [
     path: '/settings',
     name: 'settings',
     component: Settings
+  },
+  {
+    path: '/profile-settings',
+    name: 'profile-settings',
+    component: ProfileSettings
   }
 ]
 

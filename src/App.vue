@@ -53,7 +53,12 @@
       <v-btn icon class="mr-2" color="#1a237e">
         <v-icon>mdi-bell-outline</v-icon>
       </v-btn>
-      <v-btn icon class="mr-2" color="#1a237e">
+      <v-btn
+        icon
+        variant="text"
+        class="mr-2"
+        @click="$router.push('/profile-settings')"
+      >
         <v-icon>mdi-cog-outline</v-icon>
       </v-btn>
       <v-avatar 
